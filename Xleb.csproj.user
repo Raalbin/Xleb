@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Forms\BakeryEditForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forms\BakeryForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forms\ProductEditForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forms\ProductForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forms\SupplierEditForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forms\SupplierForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forms\SupplyEditForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forms\SupplyForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Forms\BakeryEditForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forms\BakeryForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forms\ProductEditForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forms\ProductForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forms\SupplierEditForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forms\SupplierForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forms\SupplyEditForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forms\SupplyForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
